@@ -6,8 +6,8 @@ document.cookie = 'cookiename=disclaimer; expires=' + disclaimerdate.toGMTString
 }
 
 if(expires != ""){
-document.write('<div id="disclaimer">);
+document.write('<div id="disclaimer">');
 document.write('<p>Bla Bla Bla Bla</p>);
-document.write('<a href="#" onClick="javascript:document.getElementById(\'disclaimer\').style.display=\'none\';disclaimercookie();">Entrer</a> - <a href="">Sortir</a>);
+document.write('<a href="#" onClick="javascript:document.getElementById(\'disclaimer\').style.display=\'none\'.disclaimercookie();">Entrer</a> - <a href="">Sortir</a>);
 document.write('</div>');
 }
