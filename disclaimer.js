@@ -12,4 +12,4 @@ document.write('<a href="#" onClick="javascript:document.getElementById(\'discla
 document.write('</div>')
 }
 
-else {document.getElementById(\'disclaimer\').style.display=\'none\'}
+else {document.getElementById('disclaimer').style.display='none'}
