@@ -1,28 +1,33 @@
 <script type='text/javascript'>
 window.onload=function(){
-(function(){
-var visited = sessionStorage.getItem('visited');
-if (!visited){
-document.getElementById("jsdisclaimer").style.display = "block";
-sessionStorage.setItem('visited', true);
+    (function(){
+        var visited = sessionStorage.getItem('visited');
+        if (!visited) {
+            document.getElementById("jsdisclaimer").style.display = "block";
+        }
+    })();
 }
-})();
+
+function hide(target) {
+    document.getElementById(target).style.display = 'none';
+    sessionStorage.setItem('visited', true);
+    location.href = 'http://buzzpornlive.com/';
 }
-function hide(target){document.getElementById(target).style.display = 'none';}
+
 </script>
 
 <div id="jsdisclaimer" style="display:none">
-<div style="background:#000;width:100%;height:100vh;padding:20px;margin:0;z-index:666;color:#FFF">
-<strong>AVERTISSEMENT : SITE INTERDIT AUX MINEURS</strong><br><br>
+    <div style="background:#000;width:100%;height:100vh;padding:20px;margin:0;z-index:666;color:#FFF">
+        <strong>AVERTISSEMENT : SITE INTERDIT AUX MINEURS</strong><br><br>
 
-Ce site est r&eacute;serv&eacute; à un public majeur et averti. Il propose des contenus &agrave; caract&egrave;re pornographique et/ou sexuels.<br><br>
+        Ce site est r&eacute;serv&eacute; à un public majeur et averti. Il propose des contenus &agrave; caract&egrave;re pornographique et/ou sexuels.<br><br>
 
-En cliquant sur le bouton "ENTRER", je certifie que :<br>
-- Je suis majeur selon les lois de mon pays et que ces lois vous autorisent &agrave; acc&eacute;der à ce service.<br>
-- Je ne diffuserai pas et ne ferai pas connaitre le contenu de ce site à des mineurs, sous peine de sanctions p&eacute;nales.<br>
-- Je ne poursuivrai pas l'&eacute;diteur de ce service pour toute action judiciaire.<br>
-- Je m'engage &agrave; installer un contr&ocirc;le parental sur mon appareil.<br><br>
+        En cliquant sur le bouton "ENTRER", je certifie que :<br>
+        - Je suis majeur selon les lois de mon pays et que ces lois vous autorisent &agrave; acc&eacute;der à ce service.<br>
+        - Je ne diffuserai pas et ne ferai pas connaitre le contenu de ce site à des mineurs, sous peine de sanctions p&eacute;nales.<br>
+        - Je ne poursuivrai pas l'&eacute;diteur de ce service pour toute action judiciaire.<br>
+        - Je m'engage &agrave; installer un contr&ocirc;le parental sur mon appareil.<br><br>
 
-<strong><a href="#" onclick="hide('jsdisclaimer');location.href='http://buzzpornlive.com/'" style="color:#FFF" target="_blank">ENTRER</a> - <a href="https://www.google.com/" style="color:#CCC">Sortir</a></strong>
-</div>
+        <strong><a href="#" onclick="hide('jsdisclaimer');" style="color:#FFF" target="_blank">ENTRER</a> - <a href="https://www.google.com/" style="color:#CCC">Sortir</a></strong>
+    </div>
 </div>
