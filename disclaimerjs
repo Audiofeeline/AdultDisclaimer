@@ -1,0 +1,20 @@
+<script type='text/javascript'>
+//<![CDATA[
+window.onload=function(){
+(function(){
+var visited = sessionStorage.getItem('visited');
+if (!visited){
+document.getElementById("jsdisclaimer").style.display = "block";
+sessionStorage.setItem('visited', true);
+}
+})();
+}//]]>
+function hide(target){document.getElementById(target).style.display = 'none';}
+</script>
+
+<div id="jsdisclaimer" style="display:none">
+<div style="background:lime">
+PAS BIEN !!!
+<a href="#" onclick="hide('jsdisclaimer')">fermer</a>
+</div>
+</div>
