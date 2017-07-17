@@ -1,8 +1,6 @@
 # AdultDisclaimer
-A free and easy to use responsive diclaimer for adult websites.
-
-The idea is simple. You just have to include the disclaimer.php to your website and it works for everyone.
-
-CSS has to be integrated to the script.
-
-Optional popup when click enter link. You know... To pay bill and shit.
+Un disclaimer responsive pour vos sites adultes.
+-------------------------------------------------
+Le script a été pensé pour être le plus léger possible et s'affiche une fois par session.
+Vous avez la possibilité d'ajouter une fenêtre popup lors du clic sur "ENTRER".
+Un CSS d'exemple est fourni.
