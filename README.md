@@ -5,4 +5,3 @@ Le script a été pensé pour être le plus léger possible et s'affiche une foi
 Vous avez la possibilité d'ajouter une fenêtre popup lors du clic sur "ENTRER".
 Un CSS d'exemple est fourni.
 -------------------------------------------------
-Contact sur http://buzzporn.net/
